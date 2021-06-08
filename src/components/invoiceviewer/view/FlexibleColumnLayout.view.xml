@@ -1,0 +1,5 @@
+
+        require("../controller/FlexibleColumnLayout.controller");
+
+        sap.ui.require.preload({"sap/bdp/components/invoiceviewer/view/FlexibleColumnLayout.view.xml": "<mvc:View\n        xmlns=\"sap.f\"\n        xmlns:m=\"sap.m\"\n        xmlns:mvc=\"sap.ui.core.mvc\"\n        xmlns:form=\"sap.ui.layout.form\"\n        xmlns:tnt=\"sap.tnt\"\n        displayBlock=\"true\"\n        controllerName=\"sap.bdp.components.invoiceviewer.controller.FlexibleColumnLayout\"\n        height=\"100%\">\n\n        <FlexibleColumnLayout id=\"fcl\" stateChange=\"onStateChanged\" layout=\"{/layout}\"\n                              backgroundDesign=\"Translucent\"/>\n</mvc:View>\n"});
+        module.exports = "sap.bdp.components.invoiceviewer.view.FlexibleColumnLayout";

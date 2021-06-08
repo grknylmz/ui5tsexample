@@ -1,0 +1,5 @@
+
+        require("../controller/Settings.controller");
+
+        sap.ui.require.preload({"sap/bdp/components/invoiceviewer/view/Settings.view.xml": "<mvc:View \n\tdisplayBlock=\"true\" \n\tcontrollerName=\"sap.bdp.components.invoiceviewer.controller.Settings\" \n\theight=\"100%\"\n\txmlns=\"sap.m\"\n\txmlns:f=\"sap.f\"\n\txmlns:mvc=\"sap.ui.core.mvc\">\n\t<f:DynamicPage id=\"dynamicPageId\" toggleHeaderOnTitleClick=\"false\">\n\n\t\t<f:title>\n\t\t\t<f:DynamicPageTitle>\n\t\t\t\t<f:heading>\n\t\t\t\t\t<Title text=\"{i18n>lb_settings}\"/>\n\t\t\t\t</f:heading>\n\t\t\t</f:DynamicPageTitle>\n\t\t</f:title>\n\n\t\t<!-- DynamicPage Content -->\n\t\t<f:content>\n\t\t\t<Text text=\"{i18n>lb_this_setting_pg}\"/>\n\t\t</f:content>\n\n\t\t\n\t</f:DynamicPage>\n</mvc:View>\n"});
+        module.exports = "sap.bdp.components.invoiceviewer.view.Settings";

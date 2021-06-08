@@ -1,0 +1,4 @@
+
+        
+        sap.ui.require.preload({"sap/bdp/components/invoiceviewer/view/MasterSortDialog.fragment.xml": "<core:FragmentDefinition\n        xmlns=\"sap.m\"\n        xmlns:core=\"sap.ui.core\">\n    <ViewSettingsDialog\n            confirm=\"handleSortDialogConfirm\">\n        <sortItems>\n            <ViewSettingsItem text=\"{i18n>lb_doc_name}\" key=\"fileName\" selected=\"true\" />\n            <ViewSettingsItem text=\"{i18n>lb_doc_type}\" key=\"documentType\" />\n            <ViewSettingsItem text=\"{i18n>lb_upload_dt}\" key=\"created\" />\n            <ViewSettingsItem text=\"{i18n>lb_status}\" key=\"status\" />\n        </sortItems>\n    </ViewSettingsDialog>\n</core:FragmentDefinition>"});
+        module.exports = "sap.bdp.components.invoiceviewer.view.MasterSortDialog";
